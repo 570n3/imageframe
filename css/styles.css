@@ -1,0 +1,37 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    padding: 30px 0;
+    font-size: 15px;
+    font-family: sans-serif;     
+}
+
+.page-loader img {
+    margin-top: -15px;
+    margin-left: -15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.landing-page {
+    margin: 0 50px;
+    max-width: 100%;
+    opacity: 0;
+}
+
+.main-container {
+    position: relative;
+}
+
+.content {
+    color: #fff;
+    background-color: #232323;
+    padding: 40px 50px;
+    -webkit-box-shadow: 0 0 30px #000 inset;
+    -moz-box-shadow: 0 0 30px #000 inset;
+    box-shadow: 0 0 30px #000 inset;
+}
